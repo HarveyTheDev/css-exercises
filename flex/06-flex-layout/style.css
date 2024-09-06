@@ -31,6 +31,20 @@ img {
   width: 600px;
 }
 
+.odin {
+  display: flex;
+  justify-content: center;
+}
+
+.input, .buttons {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.buttons {
+  gap: 10px;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
